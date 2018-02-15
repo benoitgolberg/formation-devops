@@ -4,7 +4,7 @@
   "description": "",
   "main": ".mongorc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/loicguillois/formation-devops/issues"
   },
-  "homepage": "https://github.com/loicguillois/formation-devops#readme"
+  "homepage": "https://github.com/loicguillois/formation-devops#readme",
+  "devDependencies": {
+    "should": "^13.2.1"
+  }
 }
